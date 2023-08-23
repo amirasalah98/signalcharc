@@ -170,7 +170,7 @@ html {
         margin-bottom: 50px!important;
     }
     .signup-text h2 {
-        width: 60%;
+        width: 65%;
     }
     .form-error {
         font-size: larger;
@@ -181,10 +181,19 @@ html {
         /* scale: .4; */
         margin-left: -10px!important;
     }
+    .signup-text h2 {
+        width: 70%;
+    }
 }
 @media only screen and (max-width:399px) {
     .wheel-container {
         /* scale: .55; */
-        margin-left: -70px!important;
+        margin-left: -45px!important;
+    }
+}
+@media only screen and (max-width:340px) {
+    .wheel-container {
+        /* scale: .55; */
+        margin-left: -55px!important;
     }
 }
